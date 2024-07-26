@@ -1,0 +1,22 @@
+div {
+    position: relative;
+    margin: 200px 0;
+    justify-content: center;
+    display: flex;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+button {
+    height: 100px;
+    width: 30%;
+    font-size: 30px;
+    left: 0;
+    cursor: pointer;
+    margin: 0 10px;
+    margin : 0 30px;
+}
+
+button:hover {
+    background-color: #d6edd8;
+}

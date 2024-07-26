@@ -1,0 +1,23 @@
+.one {
+    background-color: greenyellow;
+}
+
+.two {
+    background-color: yellow;
+}
+
+.three {
+    background-color: red;
+}
+
+.one,
+.two {
+    display: inline-block;
+}
+
+a {
+    background-color: green;
+    display: inline-block;
+    width: 10%;
+    float: right;
+}
