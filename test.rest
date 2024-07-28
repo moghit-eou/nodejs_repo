@@ -1,0 +1,11 @@
+###
+GET http://localhost:3000/friends 
+#( get == give me )  
+
+###
+POST http://localhost:3000/friends
+Content-Type: application/json
+
+{
+    "best_friend" : "moghit"
+}
