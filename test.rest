@@ -7,5 +7,15 @@ POST http://localhost:3000/friends
 Content-Type: application/json
 
 {
-    "best_friend" : "moghit"
+    "best_friend" : "moghit",
+    "description" : "black-male"
+}
+
+###
+PATCH http://localhost:3000/friends
+Content-Type: application/json
+
+{
+    "best_friend" : "moghit",
+    "description" : "brown-male"
 }
